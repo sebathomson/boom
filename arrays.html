@@ -1,0 +1,38 @@
+<!-- 
+ @author Sebastián Thomson <seba.thomson@gmail.com>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boom!</title>
+	<script type="text/javascript" src="matriz.js"></script>
+	<style>
+		td {
+			font-size: 30px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<p>Campo Minado</p>
+	<table border="1">
+		<tr data-x='0'>
+			<td data-y='0' onclick="javascript:evaluarPuntos(0, 0)"> (?) </td>
+			<td data-y='1' onclick="javascript:evaluarPuntos(0, 1)"> (?) </td>
+			<td data-y='2' onclick="javascript:evaluarPuntos(0, 2)"> (?) </td>
+		</tr>
+		<tr data-x='1'>
+			<td data-y='0' onclick="javascript:evaluarPuntos(1, 0)"> (?) </td>
+			<td data-y='1' onclick="javascript:evaluarPuntos(1, 1)"> (?) </td>
+			<td data-y='2' onclick="javascript:evaluarPuntos(1, 2)"> (?) </td>
+		</tr>
+		<tr data-x='2'>
+			<td data-y='0' onclick="javascript:evaluarPuntos(2, 0)"> (?) </td>
+			<td data-y='1' onclick="javascript:evaluarPuntos(2, 1)"> (?) </td>
+			<td data-y='2' onclick="javascript:evaluarPuntos(2, 2)"> (?) </td>
+		</tr>
+	</table>
+</body>
+</html>
